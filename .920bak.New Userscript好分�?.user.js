@@ -14,4 +14,3 @@
   $(".score-input:eq(0)").keyup(function(event){
   $(".submit-button").click(); alert();
   });
- 
