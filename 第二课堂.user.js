@@ -74,7 +74,7 @@ function outputWorkbook(workbook) {
 
 }  
 function readWorkbook(workbook)
-{ 	var sheetNames = workbook.SheetNames; // 工作表名称集合 
+{ var sheetNames = workbook.SheetNames; // 工作表名称集合 
  var worksheet = workbook.Sheets[sheetNames[0]]; // 这里我们只读取第一张sheet 
  //console.log(worksheet);
  var csv = XLSX.utils.sheet_to_csv(worksheet); 
@@ -174,7 +174,7 @@ $("#searchId1").val("答案");
            var a = $(".index__radio-3rN1i")[3]; $(a).trigger("click");   
          }    
          flag=1;  console.log(ABC); 
-       }  	
+       }  
        else     
            {   for(var i=0;i<$(".index__multiple-1ORmX").length;i++)
             {var a = $(".index__multiple-1ORmX")[i];
@@ -199,5 +199,3 @@ $("#searchId1").val("答案");
      
    }     
  }); 
-
-
