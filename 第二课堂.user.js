@@ -11,7 +11,6 @@
 // @grant        GM_download
 // ==/UserScript==
 /* jshint -W097 */
-'use strict'; 
 // Your code here...
 //添加div 文本框 按钮，
 var my = document.createElement("divCell");     //document.body.appendChild(my);
